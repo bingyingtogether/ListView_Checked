@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/single_radio"
+        style="@style/TextSimple"
+        android:text="单级单选"
+        />
+
+    <Button
+        android:id="@+id/single_stage_selection"
+        style="@style/TextSimple"
+        android:text="单级多选" />
+
+    <Button
+        android:id="@+id/multi_choice"
+        style="@style/TextSimple"
+        android:text="多级单选" />
+
+    <Button
+        android:id="@+id/multilevel_radio"
+        style="@style/TextSimple"
+        android:text="多级多选" />
+</LinearLayout>
